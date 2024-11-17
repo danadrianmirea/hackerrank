@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() 
+int odd_even_for_loop() 
 {
     int a, b;
 
