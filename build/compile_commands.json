@@ -1,8 +1,0 @@
-[
-{
-  "directory": "D:/adi/src/hackerrank/build/code",
-  "command": "D:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++23 -o CMakeFiles\\hackerrank_solutions.dir\\main.cpp.obj -c D:\\adi\\src\\hackerrank\\code\\main.cpp",
-  "file": "D:/adi/src/hackerrank/code/main.cpp",
-  "output": "code/CMakeFiles/hackerrank_solutions.dir/main.cpp.obj"
-}
-]
