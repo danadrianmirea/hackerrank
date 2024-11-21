@@ -1,3 +1,5 @@
+#include "sum_of_digits.h"
+
 int sumOfDigits(int n)
 {
     int sum = 0;
