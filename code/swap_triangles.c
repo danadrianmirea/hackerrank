@@ -37,7 +37,7 @@ void sort_by_area(triangle* tr, int n) {
     }
 }
 
-int main() {
+int main_triangles() {
     const char* input[] = {
         "3",        // Number of triangles
         "7 24 25",  // Triangle 1
