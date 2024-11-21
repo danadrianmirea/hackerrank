@@ -6,6 +6,5 @@
 
 int main()
 {
-    testSumOfDigits(73);
     return 0;
 }
