@@ -7,7 +7,7 @@ int main()
 {
     int a, b;
 
-    const char* input = "8\n11\n";
+    const char* input = "4\n11\n";
 
     // Use sscanf instead of scanf to parse the input from the string
     sscanf(input, "%d\n%d", &a, &b);
