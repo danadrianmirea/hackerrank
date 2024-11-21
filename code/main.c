@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
 #include <stdlib.h>
+#include <math.h>
 
-int main() 
+int main()
 {
     int a, b;
 
