@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "sum_of_digits.h": "c"
+        "sum_of_digits.h": "c",
+        "xor_stuff.h": "c"
     }
 }

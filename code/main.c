@@ -4,14 +4,8 @@
 
 #include "xor_stuff.h"
 
-int main() {
-    int n, k;
-
-    n = 3;
-    k = 2;
-
-    //scanf("%d %d", &n, &k);
-    calculate_the_maximum(n, k);
- 
+int main()
+{
+    test_calculate_the_maximum(3, 2); 
     return 0;
 }

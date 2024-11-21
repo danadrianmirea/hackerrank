@@ -26,3 +26,8 @@ void calculate_the_maximum(int n, int k) {
     printf("%d\n", maxOr);
     printf("%d\n", maxXor);
 }
+
+void test_calculate_the_maximum(int n, int k)
+{
+    calculate_the_maximum(n, k);
+}
