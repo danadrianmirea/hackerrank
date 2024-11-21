@@ -6,7 +6,6 @@
 
 int main()
 {
-    int n = 71230;
-    printf("%d\n", sumOfDigits(n));
+    testSumOfDigits(73);
     return 0;
 }

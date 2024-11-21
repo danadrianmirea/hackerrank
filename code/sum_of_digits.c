@@ -1,4 +1,10 @@
+#include <stdio.h>
 #include "sum_of_digits.h"
+
+void testSumOfDigits(int n)
+{
+    printf("%d\n", sumOfDigits(n));
+}
 
 int sumOfDigits(int n)
 {
