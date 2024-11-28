@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void splitStringInTokens(const char* s)
+void splitStringInTokens(char* s)
 {
     if (s == nullptr) return;
 
