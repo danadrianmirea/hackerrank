@@ -5,6 +5,5 @@
 
 int main()
 {
-    splitStringInTokens("Some test string");
     return 0;
 }
