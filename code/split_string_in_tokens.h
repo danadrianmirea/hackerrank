@@ -6,7 +6,7 @@
 
 void splitStringInTokens(const char* s)
 {
-    char* str = malloc(strlen(s) + 1);
+    char* str = (char*)malloc(strlen(s) + 1);
     strcpy(str, s);
 
     // split into tokens and print them
