@@ -3,6 +3,7 @@
         "sum_of_digits.h": "c",
         "xor_stuff.h": "c",
         "stdlib.h": "c",
-        "find_recursive_sum_thing.hpp": "c"
+        "find_recursive_sum_thing.hpp": "c",
+        "sort_strings.h": "c"
     }
 }

@@ -93,7 +93,7 @@ void string_sort(char** arr,const int len,int (*cmp_func)(const char* a, const c
 }
 
 
-void TestSortStrings())
+void TestSortStrings()
 {
     int n;
     scanf("%d", &n);
@@ -125,6 +125,5 @@ void TestSortStrings())
     string_sort(arr, n, sort_by_number_of_distinct_characters);
     for(int i = 0; i < n; i++)
         printf("%s\n", arr[i]); 
-    printf("\n");
-    
+    printf("\n");    
 }
