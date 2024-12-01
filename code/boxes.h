@@ -39,7 +39,7 @@ int TestBoxes()
     char input[] = {"4 5 5 5 1 2 40 10 5 41 7 2 42"};
 
     sscanf(input + 0, "%d", &n);
-    box *boxes = malloc(n * sizeof(box));
+    box *boxes = (box*)malloc(n * sizeof(box));
     int index = 1;
     for (int i = 0; i < n; i++)
     {
