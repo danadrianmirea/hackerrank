@@ -10,22 +10,22 @@ struct List
     List* next;
 };
 
-void AllocNode(List* node)
+void AllocNode(List** node)
 {
-    node = (List*)malloc(sizeof(List));
+    *node = (List*)malloc(sizeof(List));
 }
 
-void FreeNode(List* node)
+void FreeNode(List** node)
 {
-    free(node);
+    free(*node);
 }
 
 
 int main()
 {
     List* node;
-    AllocNode(node);
+    AllocNode(&node);
 
-    FreeNode(node);
+    FreeNode(&node);
     return 0;
 }
