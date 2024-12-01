@@ -91,6 +91,7 @@ int PopValue(List** node)
     res = p->data;
     FreeNode(&p);
     q->next = 0;
+    return res;
 }
 
 void PrintList(List* head)
@@ -143,6 +144,10 @@ int main()
     v = PopValue(&head);
     v = PopValue(&head);
     v = PopValue(&head);
+    v = PopValue(&head);
+    v = PopValue(&head);
+    v = PopValue(&head);
+    v = PopValue(&head);
 
     //RemoveValue(&head, 8);
     PushValue(&head, 7);
@@ -153,6 +158,9 @@ int main()
     FreeList(&head);
     FreeList(&head);
     FreeList(&head);
+    PrintList(head);
+
+    PushValue(&head, 8);
     PrintList(head);
 
     return 0;
