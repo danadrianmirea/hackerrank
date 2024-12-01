@@ -130,6 +130,7 @@ void FreeList(List** node)
 
 int main()
 {
+    // todo: move stack to its own file
     List* head;
     int v;
     AllocNode(&head);
