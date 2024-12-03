@@ -6,5 +6,6 @@
 
 int main()
 {
+    TestList();
     return 0;
 }
