@@ -1,6 +1,6 @@
 #pragma once
 
-class Solution
+class SolutionLongestSubstring
 {
 public:
     int lengthOfLongestSubstring(std::string s);
