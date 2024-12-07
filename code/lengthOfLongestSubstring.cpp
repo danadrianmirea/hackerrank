@@ -4,7 +4,7 @@
 
 #include "lengthOfLongestSubstring.hpp"
 
-SolutionLongestSubstring::lengthOfLongestSubstring(std::string s)
+int SolutionLongestSubstring::lengthOfLongestSubstring(std::string s)
 {
     std::unordered_map<char, int> charIndexMap; // To store the index of characters
     int maxLength = 0; // Maximum length of substring without repeating characters
