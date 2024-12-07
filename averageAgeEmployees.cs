@@ -7,16 +7,16 @@ namespace Solution
     public class Solution
     {
         // Method to calculate the average age of employees for each company
-public static Dictionary<string, int> AverageAgeForEachCompany(List<Employee> employees)
-{
-    return employees
-        .GroupBy(e => e.Company)  // Group employees by their company
-        .OrderBy(g => g.Key)  // Sort the companies alphabetically
-        .ToDictionary(
-            g => g.Key,  // The company name is the key
-            g => (int)Math.Round(g.Average(e => e.Age))  // Calculate the average age and round it at the end
-        );
-}
+        public static Dictionary<string, int> AverageAgeForEachCompany(List<Employee> employees)
+        {
+            return employees
+                .GroupBy(e => e.Company)  // Group employees by their company
+                .OrderBy(g => g.Key)  // Sort the companies alphabetically
+                .ToDictionary(
+                    g => g.Key,  // The company name is the key
+                    g => (int)Math.Round(g.Average(e => e.Age))  // Calculate the average age and round it at the end
+                );
+        }
 
         // Method to calculate the count of employees for each company
         public static Dictionary<string, int> CountOfEmployeesForEachCompany(List<Employee> employees)
