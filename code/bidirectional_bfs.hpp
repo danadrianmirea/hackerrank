@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <list>
 #include <queue>
@@ -9,7 +10,7 @@
 using namespace std;
 
 // Function to reconstruct the path from source to target
-vector<int> reconstructPath(int intersection,
+inline vector<int> reconstructPath(int intersection,
                             unordered_map<int, int> &parent_source,
                             unordered_map<int, int> &parent_target) {
   vector<int> path;
@@ -33,7 +34,7 @@ vector<int> reconstructPath(int intersection,
 }
 
 // Bidirectional BFS implementation
-vector<int> bidirectionalBFS(unordered_map<int, list<int>> &graph, int source,
+inline vector<int> bidirectionalBFS(unordered_map<int, list<int>> &graph, int source,
                              int target) {
   if (source == target) {
     return {source};
@@ -96,7 +97,7 @@ vector<int> bidirectionalBFS(unordered_map<int, list<int>> &graph, int source,
   return {}; // Return empty path if no path exists
 }
 
-int TestBidirectionalBFS() 
+inline int TestBidirectionalBFS() 
 {
   // Example graph as an adjacency list
   unordered_map<int, list<int>> graph;
